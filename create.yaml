@@ -2,7 +2,7 @@ Resources:
   s3Bucket:
     Type: "AWS::S3::Bucket"
     Properties:
-      BucketName: "savan12"
+      BucketName: "savan123"
 
 
 
