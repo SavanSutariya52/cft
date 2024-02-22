@@ -23,7 +23,7 @@ jobs:
         run: |
           aws cloudformation deploy \
             --stack-name group5nyc \
-            --template-file cft/create.yaml \
+            --template-file cft/create.yml \
             --capabilities CAPABILITY_NAMED_IAM
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
